@@ -1,0 +1,41 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Packages
+*.egg
+*.egg-info/
+dist/
+build/
+node_modules/
+
+# Virtual environment
+venv/
+env/
+.venv/
+.env*
+
+# Django files
+**/migrations/*.py[cod]
+.env
+*.env
+db.sqlite3
+db.sqlite3-journal
+
+# Static and media files
+media/
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Log and temp files
+*.log
+*.tmp
+*.temp
