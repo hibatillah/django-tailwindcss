@@ -1,12 +1,17 @@
 # Django using Tailwind CSS
 
-Web development using [Django](https://www.djangoproject.com) `v5.1.3` and styling using [Tailwind CSS](https://tailwindcss.com) `v3.4.14` using for Deep Learning purposes.
+Web development using Django with Tailwind css, using for Deep Learning project purposes.
 
-This project using [Python](https://www.python.org) `v3.12.7` and [Node.js](https://nodejs.org/) `v22.11.0`.
+### Tech Stack
+
+- [Django](https://www.djangoproject.com) `v5.1.3`
+- [Tailwind CSS](https://tailwindcss.com) `v3.4.14`
+- [Python](https://www.python.org) `v3.12.7`
+- [Node.js](https://nodejs.org/) `v22.11.0`
 
 ## Getting Started
 
-1. Clone this project
+1. Use this repo as template or/and clone the project
 
 ```bash
 git clone https://github.com/hibatillah/django-tailwindcss
@@ -60,7 +65,7 @@ invoke start
 > All the required depedencies store in [`requirements.txt`](/requirements.txt) and [`pakcage.json`](/package.json).
 
 > [!WARNING]
-> Django hot reload is not working because it runs different commands at the same time. <br>
+> Django hot reload is not working because it runs different commands manager at the same time. <br>
 > Haven't looked into it yet.
 
 ### Run command separately
@@ -76,7 +81,7 @@ npm run watch
 
 ## Add new depedencies
 
-Install your depedencies with `actived venv`, then add depedencies to [requirements.txt](/requirements.txt) with this command
+Install your depedencies with `actived venv`, then add depedencies to [requirements.txt](/requirements.txt) with next command
 
 ```bash
 pip freeze > requirements.txt
@@ -86,7 +91,7 @@ pip freeze > requirements.txt
 
 ## Convention
 
-Read [Django documentation](https://docs.djangoproject.com).
+Read [Django documentation](https://docs.djangoproject.com)
 
 - Modify logic in [views.py](/deep_learning/deep_learning/views.py)
 - Set routing in [urls.py](/deep_learning/deep_learning/urls.py)
@@ -94,3 +99,7 @@ Read [Django documentation](https://docs.djangoproject.com).
 - Static assets in [/static](/deep_learning/static)
 - Styling directly using Tailwindcss or in [index.css](/deep_learning/static/css/index.css)
 - Modify DOM in [index.js](/deep_learning/static/js/index.js)
+
+> [!WARNING]
+> Change `deep_learning` directory name will break the project structure. <br>
+> If you want to change it, make sure to change all the reference in the project.
