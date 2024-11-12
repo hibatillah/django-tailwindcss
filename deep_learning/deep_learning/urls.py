@@ -1,5 +1,5 @@
 """
-URL configuration for audio_classification project.
+URL configuration for deep_learning project.
 
 The `urlpatterns` list routes URLs to views. For more information please see:
     https://docs.djangoproject.com/en/5.1/topics/http/urls/

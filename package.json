@@ -1,5 +1,5 @@
 {
-  "name": "django-template",
+  "name": "django-tailwindcss-template",
   "description": "Django project template with Tailwind CSS",
   "version": "1.0.0",
   "private": true,
@@ -12,8 +12,8 @@
     "url": "https://github.com/hibatillah"
   },
   "scripts": {
-    "build:css": "npx tailwindcss -i ./audio_classification/static/css/index.css -o ./audio_classification/static/css/output.css",
-    "watch": "npx tailwindcss -i ./audio_classification/static/css/index.css -o ./audio_classification/static/css/output.css --watch"
+    "build:css": "npx tailwindcss -i ./deep_learning/static/css/index.css -o ./deep_learning/static/css/output.css",
+    "watch": "npx tailwindcss -i ./deep_learning/static/css/index.css -o ./deep_learning/static/css/output.css --watch"
   },
   "devDependencies": {
     "tailwindcss": "^3.4.14"

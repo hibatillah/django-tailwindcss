@@ -1,6 +1,7 @@
 # Django using Tailwind CSS
 
-Web development using [Django](https://www.djangoproject.com) `v5.1.3` and styling using [Tailwind CSS](https://tailwindcss.com) `v3.4.14` for Deep Learning audio classification. <br>
+Web development using [Django](https://www.djangoproject.com) `v5.1.3` and styling using [Tailwind CSS](https://tailwindcss.com) `v3.4.14` using for Deep Learning purposes.
+
 This project using [Python](https://www.python.org) `v3.12.7` and [Node.js](https://nodejs.org/) `v22.11.0`.
 
 ## Getting Started
@@ -12,7 +13,7 @@ git clone https://github.com/hibatillah/django-tailwindcss
 cd django-tailwindcss
 ```
 
-2. Make sure you have Python installed, check version by running
+2. Make sure you have python installed, check version by running
 
 ```bash
 python --version
@@ -59,12 +60,13 @@ invoke start
 > All the required depedencies store in [`requirements.txt`](/requirements.txt) and [`pakcage.json`](/package.json).
 
 > [!WARNING]
-> Django hot reload is not working because it runs different commands at the same time.
+> Django hot reload is not working because it runs different commands at the same time. <br>
+> Haven't looked into it yet.
 
 ### Run command separately
 
 ```bash
-cd audio_classification
+cd deep_learning
 python manage.py runserver
 ```
 
@@ -74,7 +76,7 @@ npm run watch
 
 ## Add new depedencies
 
-Install your depedencies while `venv is active`, then add depedencies to [requirements.txt](/requirements.txt)
+Install your depedencies with `actived venv`, then add depedencies to [requirements.txt](/requirements.txt) with this command
 
 ```bash
 pip freeze > requirements.txt
@@ -86,9 +88,9 @@ pip freeze > requirements.txt
 
 Read [Django documentation](https://docs.djangoproject.com).
 
-- Modify logic in [views.py](/audio_classification/audio_classification/views.py)
-- Set routing in [urls.py](/audio_classification/audio_classification/urls.py)
-- Modify interface in [/templates](/audio_classification/templates)
-- Static assets in [/static](/audio_classification/static)
-- Styling directly using Tailwindcss or in [index.css](/audio_classification/static/css/index.css)
-- Modify DOM in [index.js](/audio_classification/static/css/index.js)
+- Modify logic in [views.py](/deep_learning/deep_learning/views.py)
+- Set routing in [urls.py](/deep_learning/deep_learning/urls.py)
+- Modify interface in [/templates](/deep_learning/templates)
+- Static assets in [/static](/deep_learning/static)
+- Styling directly using Tailwindcss or in [index.css](/deep_learning/static/css/index.css)
+- Modify DOM in [index.js](/deep_learning/static/js/index.js)
