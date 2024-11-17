@@ -84,6 +84,7 @@ npm run watch
 Install your depedencies with `actived venv`, then add depedencies to [requirements.txt](/requirements.txt) with next command
 
 ```bash
+cd deep_learning
 pip freeze > requirements.txt
 ```
 
